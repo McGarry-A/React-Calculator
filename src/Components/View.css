@@ -1,0 +1,10 @@
+.view {
+    color: white;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    background-color: black;
+}
