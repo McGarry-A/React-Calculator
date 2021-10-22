@@ -6,15 +6,16 @@
 
 .number {
     display: flex;
-    user-select: none;
     flex-basis: 25%;
-    height: 3vh;
+    height: 5vh;
     border: none;
     justify-content: center;
-    background-color:lightgrey;
+    background-color:#E8E7E7;
     align-items: center;
     cursor: pointer;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1.4rem;
+    font-weight: bold;
+    outline: 1px #000 solid;
 }
 
 .button0 {   
@@ -22,15 +23,20 @@
 }
 
 .number:active {
-    background-color: gray;
-    box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.25);
+    background-color: #E0E0E0;
 }
 
 
 #equal-operator {
     flex-basis: 50%;
+    background-color: #FFAE33;
 }
 
 #clear-operator {
     flex-basis: 50%;
+    background-color: #FFAE33;
 }
+
+.button {
+    background-color: #FFAE33;
+  }

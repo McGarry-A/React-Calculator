@@ -35,6 +35,9 @@ function App() {
   };
 
   const equalHandler = () => {
+
+    if (display === "") { return }
+
     let answer = evaluate(display).toFixed(2)
     setDisplay(answer.toString())
   }
